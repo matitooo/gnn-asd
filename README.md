@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ### 2. Configuration file editing
 
- Inside the ABIDE_config folder edit the config_abide.yaml file by specifying the project root folder (it must be a absolute path).
+ Inside the ABIDE_config folder edit the config_abide.yaml file by specifying the folder you want to save the ABIDE data in (it must be a absolute path).
 
 ### 3. Data downloading and preprocessing
 
