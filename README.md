@@ -7,11 +7,11 @@ Note: The ABIDE parser script (used in some preprocessing functions) and fetch_d
 
 ### 1. Install Required packeges
 Required packages  can be installed by running the following command
-```text
+
 ```
 pip install -r requirements.txt
 ```
-```
+
 
 ### 2. Configuration file editing
 
@@ -23,7 +23,6 @@ Using the download_preprocess.py script, download the [Preprocessed ABIDE Datase
 
 ```
 python fetch_data.py
-
 ```
 
 ## Train and Configuration Mode
@@ -32,7 +31,6 @@ The GCN model (and the baseline CNN model used to compare results) can be traine
 
 ```
 python main.py --train
-
 ```
 
 Graph Creation, Model and Training parameters can be changed by editing the file config.yaml. Default settings can be printed by using the following command.
