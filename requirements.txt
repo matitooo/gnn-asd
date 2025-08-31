@@ -1,0 +1,8 @@
+nilearn
+numpy
+PyYAML
+scikit_learn
+scipy
+torch
+torch_geometric
+tqdm

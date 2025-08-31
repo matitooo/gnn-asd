@@ -1,0 +1,19 @@
+method: grid 
+name: 'sweep'
+metric:
+  name: test_f1
+  goal: maximize
+parameters:
+  dropout:
+    values: [0.3, 0.4, 0.5, 0.6]
+  decay:
+    values: [0.0001, 0.0005, 0.001]
+  hidden:
+    values: [16, 32, 64]
+  lrate:
+    values: [0.0001, 0.0005, 0.001]
+  epochs:
+    values: [100, 200, 300]
+  threshold:
+    values: [0.5, 0.6, 0.7, 0.8]
+program: sweep.py

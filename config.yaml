@@ -1,0 +1,9 @@
+dropout: 0.5
+decay: 0.0005
+hidden: 32
+lrate: 0.0001
+epochs: 200
+seed: 42
+max_degree: 3
+threshold : 0.7
+
