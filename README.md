@@ -20,27 +20,27 @@ pip install -r requirements.txt
 ### 3. Data downloading and preprocessing
 
 Using the download_preprocess.py script, download the [Preprocessed ABIDE Dataset](http://preprocessed-connectomes-project.org/abide/)  with the following command
-```text
+
 ```
 python fetch_data.py
-```
+
 ```
 
 ## Train and Configuration Mode
 
 The GCN model (and the baseline CNN model used to compare results) can be trained by using the following command.
-```text
+
 ```
 python main.py --train
+
 ```
-```
+
 Graph Creation, Model and Training parameters can be changed by editing the file config.yaml. Default settings can be printed by using the following command.
 
-```text
 ```
-python main.py --train
+python main.py --configuration
 ```
-```
+
 
 More infos on the model architecture and preprocessing can be found in the report.pdf file.
 
